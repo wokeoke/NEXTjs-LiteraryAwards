@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  .container {
+  width: 100%;
+  height: 70vh;
+  background: rebeccapurple;
+
+  img {
     width: 100%;
     height: 100%;
-    background: #fff;
-  }
-
-  .footer-padding {
-    height: var(--footer-height);
+    object-fit: cover;
   }
 `;
 
