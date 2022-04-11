@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "baseUrl": ".",
+    "paths": {
+      /* FRONTEND */
+      "@/components/*": ["frontend/components/*"],
+      "@/styles/*": ["frontend/styles/*"],
+      "@/helpers/*": ["frontend/helpers/*"]
+    }
+  }
+}
