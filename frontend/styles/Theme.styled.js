@@ -19,6 +19,8 @@ export const GlobalStyles = styled.createGlobalStyle`
     --footer-height: 30vh;
 
     --max-width: 1200px;
+
+    --transition: all 0.3s ease;
   }
 
   * {

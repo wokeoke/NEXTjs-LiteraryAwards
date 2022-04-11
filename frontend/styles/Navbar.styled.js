@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Wrapper = styled.header`
   .navbar {
@@ -9,7 +9,8 @@ const Wrapper = styled.header`
     justify-content: space-between;
     margin: auto;
     position: fixed;
-    transition: all 0.3s ease;
+    transition: var(--transition);
+    z-index: 99;
   }
 
   .navbar.hide {

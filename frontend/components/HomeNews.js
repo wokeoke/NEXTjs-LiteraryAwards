@@ -1,3 +1,3 @@
 export default function HomeNews() {
-  return <div>HomeNews</div>;
+  return <div style={{ height: '100vh' }}>HomeNews</div>;
 }
